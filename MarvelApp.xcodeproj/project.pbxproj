@@ -84,9 +84,6 @@
 		A05CE57C297DD46700BB85EC /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05CE57B297DD46700BB85EC /* RealmHelper.swift */; };
 		A05CE57E297DE67E00BB85EC /* SeriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05CE57D297DE67E00BB85EC /* SeriesModel.swift */; };
 		A05CE580297EE11900BB85EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A05CE57F297EE11900BB85EC /* GoogleService-Info.plist */; };
-		A05CE585297EEF3800BB85EC /* landing.png in Resources */ = {isa = PBXBuildFile; fileRef = A05CE582297EEF3800BB85EC /* landing.png */; };
-		A05CE586297EEF3800BB85EC /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = A05CE583297EEF3800BB85EC /* list.png */; };
-		A05CE587297EEF3800BB85EC /* details.png in Resources */ = {isa = PBXBuildFile; fileRef = A05CE584297EEF3800BB85EC /* details.png */; };
 		A0C20A05297BD7C400D9099C /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C20A04297BD7C400D9099C /* CharactersViewController.swift */; };
 		A0C20A07297BD7D100D9099C /* CharactersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C20A06297BD7D100D9099C /* CharactersVM.swift */; };
 		A0C20A09297BD9AC00D9099C /* PaginatedTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C20A08297BD9AC00D9099C /* PaginatedTable.swift */; };
@@ -215,9 +212,6 @@
 		A05CE57B297DD46700BB85EC /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 		A05CE57D297DE67E00BB85EC /* SeriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesModel.swift; sourceTree = "<group>"; };
 		A05CE57F297EE11900BB85EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		A05CE582297EEF3800BB85EC /* landing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landing.png; sourceTree = "<group>"; };
-		A05CE583297EEF3800BB85EC /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
-		A05CE584297EEF3800BB85EC /* details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = details.png; sourceTree = "<group>"; };
 		A0C20A04297BD7C400D9099C /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
 		A0C20A06297BD7D100D9099C /* CharactersVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersVM.swift; sourceTree = "<group>"; };
 		A0C20A08297BD9AC00D9099C /* PaginatedTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedTable.swift; sourceTree = "<group>"; };
@@ -372,7 +366,6 @@
 				A01E627A28463316007A5DCD /* Helpers */,
 				A01E628928463316007A5DCD /* Localization */,
 				A01E625B28463316007A5DCD /* Utilities */,
-				A05CE581297EEF2000BB85EC /* Assets */,
 				A05CE57F297EE11900BB85EC /* GoogleService-Info.plist */,
 				A0D09820286C5E6B003BA1AF /* MarvelApp.entitlements */,
 				A01E610428462383007A5DCD /* MarvelApp.xcdatamodeld */,
@@ -577,16 +570,6 @@
 			path = Repositories;
 			sourceTree = "<group>";
 		};
-		A05CE581297EEF2000BB85EC /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				A05CE584297EEF3800BB85EC /* details.png */,
-				A05CE582297EEF3800BB85EC /* landing.png */,
-				A05CE583297EEF3800BB85EC /* list.png */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 		A0C20A03297BD79900D9099C /* CharactersPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -761,7 +744,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A05CE587297EEF3800BB85EC /* details.png in Resources */,
 				A0C20A2C297C316500D9099C /* ItemCollectionViewCell.xib in Resources */,
 				A01A9F662865C1D200CA02D7 /* IntroductionCollectionViewCell.xib in Resources */,
 				A01A9F6A2865C1D200CA02D7 /* arrowDown.json in Resources */,
@@ -769,9 +751,7 @@
 				A0C20A1F297C13FB00D9099C /* DetailsHeaderView.xib in Resources */,
 				A05CE580297EE11900BB85EC /* GoogleService-Info.plist in Resources */,
 				A01E62C328463316007A5DCD /* Localizable.strings in Resources */,
-				A05CE586297EEF3800BB85EC /* list.png in Resources */,
 				A01E610B28462385007A5DCD /* LaunchScreen.storyboard in Resources */,
-				A05CE585297EEF3800BB85EC /* landing.png in Resources */,
 				A0D0983B286D8CDF003BA1AF /* OnBoard.storyboard in Resources */,
 				A0C20A27297C2F8A00D9099C /* CollectionTableViewCell.xib in Resources */,
 				A01E610828462385007A5DCD /* Assets.xcassets in Resources */,
