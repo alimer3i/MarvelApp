@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ItemCollectionViewCell" customModule="MarvelApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="352" height="405"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="352" height="405"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n7g-Ju-sPk">
+                        <rect key="frame" x="0.0" y="0.0" width="140" height="405"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Comic" translatesAutoresizingMaskIntoConstraints="NO" id="Pl7-Fe-nn0">
+                                <rect key="frame" x="10" y="10" width="100" height="133.33333333333334"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Pl7-Fe-nn0" secondAttribute="height" multiplier="3:4" id="WPc-Ur-Mle"/>
+                                    <constraint firstAttribute="width" constant="100" id="tad-9r-KX5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QlT-xJ-aQr">
+                                <rect key="frame" x="10" y="153.33333333333337" width="100" height="241.66666666666663"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QlT-xJ-aQr" firstAttribute="centerX" secondItem="Pl7-Fe-nn0" secondAttribute="centerX" id="G6Y-oI-T9p"/>
+                            <constraint firstItem="Pl7-Fe-nn0" firstAttribute="centerX" secondItem="n7g-Ju-sPk" secondAttribute="centerX" id="NjJ-Yt-D9K"/>
+                            <constraint firstItem="QlT-xJ-aQr" firstAttribute="leading" secondItem="Pl7-Fe-nn0" secondAttribute="leading" id="STT-r8-pjY"/>
+                            <constraint firstItem="Pl7-Fe-nn0" firstAttribute="leading" secondItem="n7g-Ju-sPk" secondAttribute="leading" constant="10" id="XnB-io-US8"/>
+                            <constraint firstAttribute="bottom" secondItem="QlT-xJ-aQr" secondAttribute="bottom" constant="10" id="qZr-QG-4DX"/>
+                            <constraint firstItem="QlT-xJ-aQr" firstAttribute="top" secondItem="Pl7-Fe-nn0" secondAttribute="bottom" constant="10" id="ukz-G8-7E6"/>
+                            <constraint firstItem="Pl7-Fe-nn0" firstAttribute="top" secondItem="n7g-Ju-sPk" secondAttribute="top" constant="10" id="unX-gJ-BOx"/>
+                            <constraint firstAttribute="width" constant="140" id="vTB-J2-v3b"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="n7g-Ju-sPk" secondAttribute="bottom" id="Dee-01-UF9"/>
+                <constraint firstItem="n7g-Ju-sPk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ik7-O8-YY0"/>
+                <constraint firstItem="n7g-Ju-sPk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Mau-iC-bDc"/>
+                <constraint firstAttribute="trailing" secondItem="n7g-Ju-sPk" secondAttribute="trailing" id="ovQ-2r-N87"/>
+            </constraints>
+            <size key="customSize" width="352" height="405"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="isSkeletonable" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="itemImageView" destination="Pl7-Fe-nn0" id="OPd-zh-swI"/>
+                <outlet property="titleLabel" destination="QlT-xJ-aQr" id="9IT-j1-3wV"/>
+            </connections>
+            <point key="canvasLocation" x="485" y="182"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Comic" width="553" height="850"/>
+    </resources>
+</document>

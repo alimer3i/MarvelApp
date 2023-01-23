@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>389569803189-3e5uqf6fs2n3oerhijdc37tfh0j4jgdd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.389569803189-3e5uqf6fs2n3oerhijdc37tfh0j4jgdd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCiiWpwzFw6YI7zWbZ5BTWAF2ld8jp9Pxs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>389569803189</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.montymobile.MarvelApp</string>
+	<key>PROJECT_ID</key>
+	<string>marvelapp-a4d2f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>marvelapp-a4d2f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:389569803189:ios:fb0c1d7772b73c4ebf9ffc</string>
+</dict>
+</plist>
